@@ -1,8 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-aquaterias.like-themes.com	TRUE	/	FALSE	1999999999	PHPSESSID	5a664284e0a6dd64a30ee7c79b23bc28
-aquaterias.like-themes.com	TRUE	/	FALSE	1999999999	pvc_visits[0]	1728051675b2195a1728051678b2165a1728051680b2087a1728052219b2191a1728052222b2182a1728052225b2188a1728052235b2186a1728052237b2193a1728052932b2197a1728052935b2096
-aquaterias.like-themes.com	TRUE	/	FALSE	1999999999	woocommerce_items_in_cart	1
-aquaterias.like-themes.com	TRUE	/	FALSE	1999999999	woocommerce_cart_hash	e50be5f0871dd4835acf21b3ad20c2ea
-aquaterias.like-themes.com	TRUE	/	FALSE	1999999999	wp_woocommerce_session_e3cbdcfbabae7f18d2bbaa04cfeaf812	4888759e8d5534d0adf7da3968884724%7C%7C1728138222%7C%7C1728134622%7C%7C4cd68548445541de7d34782be2de27d8
-
