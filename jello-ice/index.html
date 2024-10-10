@@ -44,6 +44,25 @@
       title="Aquaterias &raquo; iCal Feed"
       href="events/indexedf3.html?ical=1"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init({
+            publicKey: "macZ4WQe6kWsud8aL",
+          });
+      })();
+    </script>
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("macZ4WQe6kWsud8aL"); // Replace with your EmailJS User ID
+        })();
+    </script>
     <script type="text/javascript">
       window._wpemojiSettings = {
         baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/",
@@ -2069,12 +2088,6 @@
         cart_redirect_after_add: "no",
       };
     </script>
-    <!--[if lt IE 9]>
-      <script
-        type="text/javascript"
-        src="http://aquaterias.like-themes.com/wp-content/themes/aquaterias/assets/js/html5shiv.js?ver=5.1.19"
-      ></script>
-    <![endif]-->
     <link rel="https://api.w.org/" href="wp-json/index.html" />
     <link
       rel="EditURI"
@@ -2243,7 +2256,7 @@
               />
             </a>
           </div>
-          <div class="pull-right nav-right">
+          <!-- <div class="pull-right nav-right">
             <div id="top-search" class="top-search">
               <a
                 href="#"
@@ -2262,7 +2275,7 @@
               <i class="fa fa-shopping-cart" aria-hidden="true"></i
               ><span class="cart-contents header-cart-count count">0</span>
             </a>
-          </div>
+          </div> -->
           <div id="navbar" class="navbar-collapse collapse">
             <div class="toggle-wrap">
               <button type="button" class="navbar-toggle collapsed">
@@ -2286,25 +2299,25 @@
                   >
                     <a href="index.html"><span>Dark Version</span></a>
                   </li>
-                  <li
+                  <!-- <li
                     id="menu-item-3142"
                     class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2462 current_page_item menu-item-3142"
                   >
                     <a href="index.html" aria-current="page"
                       ><span>Water Shop</span></a
                     >
-                  </li>
+                  </li> -->
                   <li
                     id="menu-item-3272"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3272"
                   >
-                    <a href=".homepage-natural-water/index.html"
+                    <a href="#make-order"
                       ><span>Water Delivery</span></a
                     >
                   </li>
                 </ul>
               </li>
-              <li
+              <!-- <li
                 id="menu-item-3128"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3128"
               >
@@ -2339,8 +2352,8 @@
                     <a href=".faq/index.html"><span>FAQ</span></a>
                   </li>
                 </ul>
-              </li>
-              <li
+              </li> -->
+              <!-- <li
                 id="menu-item-619"
                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-619"
               >
@@ -2373,8 +2386,8 @@
                     >
                   </li>
                 </ul>
-              </li>
-              <li
+              </li> -->
+              <!-- <li
                 id="menu-item-59"
                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-59"
               >
@@ -2405,7 +2418,7 @@
                     >
                   </li>
                 </ul>
-              </li>
+              </li> -->
               <li
                 id="menu-item-60"
                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60"
@@ -2416,26 +2429,28 @@
                     id="menu-item-47"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"
                   >
-                    <a href="gallery-2-columns/index.html"
-                      ><span>Gallery 2-columns</span></a
+                  <!-- href="gallery-2-columns/index.html" -->
+                    <a href="#"
+                      ><span>Workspace</span></a
                     >
                   </li>
                   <li
                     id="menu-item-48"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"
                   >
-                    <a href="gallery-3-columns/index.html"
-                      ><span>Gallery 3-columns</span></a
+                  <!-- href="gallery-3-columns/index.html" -->
+                    <a href="#"
+                      ><span>Our Team</span></a
                     >
                   </li>
-                  <li
+                  <!-- <li
                     id="menu-item-49"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"
                   >
                     <a href="gallery-4-columns/index.html"
                       ><span>Gallery 4-columns</span></a
                     >
-                  </li>
+                  </li> -->
                 </ul>
               </li>
               <li
@@ -2444,7 +2459,7 @@
               >
                 <a href="contacts/index.html"><span>Contacts</span></a>
               </li>
-              <li
+              <!-- <li
                 id="menu-item-61"
                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-61"
               >
@@ -2579,13 +2594,13 @@
                     <a href="404-page.html"><span>404 Page</span></a>
                   </li>
                 </ul>
-              </li>
+              </li> -->
             </ul>
             <div class="nav-mob">
               <ul class="nav navbar-nav">
                 <li>
                   <a
-                    href="cart/index.html"
+                    href="#"
                     class="shop_table cart-mob"
                     title="View your shopping cart"
                   >
@@ -2704,7 +2719,7 @@
                             </div>
                             <div class="btn-wrap align-left btn-wrap-inline">
                               <a
-                                href="#"
+                                href="#make-order"
                                 class="btn btn-second transform-default color-text-white color-hover-white align-left"
                                 id="like_sc_button_342318199"
                                 >Make order</a
@@ -3400,7 +3415,7 @@
                                 <div
                                   class="vc_single_image-wrapper vc_box_border_grey"
                                 >
-                                  <img
+                                  <!-- <img
                                     width="123"
                                     height="122"
                                     src="wp-content/uploads/2017/12/label-free.png"
@@ -3411,7 +3426,7 @@
                                       http://aquaterias.like-themes.com/wp-content/uploads/2017/12/label-free-100x100.png 100w
                                     "
                                     sizes="(max-width: 123px) 100vw, 123px"
-                                  />
+                                  /> -->
                                 </div>
                               </figure>
                             </div>
@@ -3490,10 +3505,10 @@
                               <div class="wpb_text_column wpb_content_element">
                                 <div class="wpb_wrapper">
                                   <p>
-                                    Our delivery service employs more than 100
-                                    professional couriers. We will deliver water
+                                    Our delivery service employs
+                                    professional couriers who are always on time. We will deliver water
                                     to your home for
-                                    <span style="color: #21b6ff">1 hour</span>
+                                    <span style="color: #21b6ff">2 hour</span>
                                     to anywhere in the city.
                                   </p>
                                 </div>
@@ -3524,7 +3539,7 @@
                                     <strong
                                       ><span class="color-main text-md"
                                         ><span style="color: #21b6ff"
-                                          >8:00 &#8211; 22:00</span
+                                          >8:00am &#8211; 7:00pm</span
                                         ></span
                                       ></strong
                                     >
@@ -3568,7 +3583,7 @@
                             </div>
                             <div class="btn-wrap align-left btn-wrap-inline">
                               <a
-                                href="#"
+                                href="#make-order"
                                 class="btn btn-second transform-default color-text-white color-hover-white align-left"
                                 id="like_sc_button_1836621841"
                                 >Make order</a
@@ -3647,7 +3662,7 @@
                               id="like_sc_header_196367306"
                             >
                               <h5 class="header">
-                                Contact Us
+                                Our Ways
                                 <span class="subheader sub-nl"></span>
                               </h5>
                             </div>
@@ -3656,8 +3671,7 @@
                               id="like_sc_header_508750358"
                             >
                               <h6 class="header">
-                                Jello Ice is ideal for drinking, cooking, sports
-                                and even for children. 
+                                Our mission prioritizes a customer-centered approach, focusing on satisfaction, affordability, accessibility, and education to reduce dehydration impacts. 
                                 <span class="subheader sub-nl"></span>
                               </h6>
                             </div>
@@ -3907,77 +3921,74 @@
                   </section>
                   <div class="vc_row-full-width vc_clearfix"></div>
                   <section
-                    data-vc-full-width="true"
-                    data-vc-full-width-init="false"
-                    class="vc_section vc_custom_1513620393970 vc_section-has-fill"
-                  >
-                    <div class="vc_row wpb_row vc_row-fluid">
-                      <div class="wpb_column vc_column_container vc_col-sm-12">
-                        <div class="vc_column-inner">
-                          <div class="wpb_wrapper">
-                            <div
-                              class="heading head-subheader align-center color-black subcolor-main transform-default bg-image vc_custom_1513620675866"
-                              id="like_sc_header_2119775449"
-                            >
-                              <h6 class="subheader font-main">Technology</h6>
-                              <h3 class="header">How we extract water</h3>
-                            </div>
-                            <div
-                              class="ltx-content-width col-align-center"
-                              style="max-width: 970px"
-                            >
-                              <div class="wpb_text_column wpb_content_element">
-                                <div class="wpb_wrapper">
-                                  <p style="text-align: center">
-                                    Suspendisse potenti. Vestibulum luctus justo
-                                    sed nibh interdum, nec mollis sem convallis.
-                                    Sed placerat sem ante, ut aliquam mauris
-                                    lacinia ac. Praesent in diam eros.
-                                  </p>
-                                </div>
+                  data-vc-full-width="true"
+                  data-vc-full-width-init="false"
+                  class="vc_section vc_custom_1513620393970 vc_section-has-fill"
+                  id="make-order"
+                >
+                  <div class="vc_row wpb_row vc_row-fluid">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                      <div class="vc_column-inner">
+                        <div class="wpb_wrapper">
+                          <div class="heading head-subheader align-center color-black subcolor-main transform-default bg-image vc_custom_1513620675866" id="like_sc_header_2119775449">
+                            <h6 class="subheader font-main">Request Water</h6>
+                            <h3 class="header">Fill the Form to Request Water Delivery</h3>
+                          </div>
+                          <div class="ltx-content-width col-align-center" style="max-width: 970px">
+                            <!-- Water Request Form -->
+                            <form id="waterRequestForm" method="POST" >
+                              <div>
+                                <label for="fullName">Full Name:</label>
+                                <input type="text" id="fullName" name="fullName" required />
+                              </div>
+                              <div>
+                                <label for="numberOfBags">Number of Bags:</label>
+                                <input type="number" id="numberOfBags" name="numberOfBags" min="1" required />
+                              </div>
+                              <div>
+                                <label for="deliveryDate">Delivery Date:</label>
+                                <input type="date" id="deliveryDate" name="deliveryDate" required />
+                              </div>
+                              <div>
+                                <label for="phoneNumber">Phone Number:</label>
+                                <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}" required />
+                              </div>
+                              <div>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required />
+                              </div>
+                              <div>
+                                <label for="additionalInfo">Additional Information (optional):</label>
+                                <textarea id="additionalInfo" name="additionalInfo"></textarea>
+                              </div>
+                              <div class="btn-wrap align-left btn-wrap-inline">
+                                <button type="button" onclick="submitForm()"
+                                  class="btn btn-default transform-default color-text-white  align-left"
+                                  id="like_sc_button_1298970151"S
+                                  >Submit Request</button
+                                >
+                              </div>
+                            </form>
+                
+                            <!-- Modal for Confirming Form Submission -->
+                            <div id="confirmationModal" style="display: none;">
+                              <div class="modal-content">
+                                <h3>Confirm Your Request</h3>
+                                <p>Are you sure you want to submit the water request?</p>
+                                <button type="button" onclick="submitForm()">Yes, Submit</button>
+                                <button type="button" onclick="closeModal()">Cancel</button>
                               </div>
                             </div>
-                            <a
-                              href="https://www.youtube.com/watch?v=J5-9EWa3tyQ"
-                              class="swipebox image-video"
-                              ><span class="image"
-                                ><img
-                                  src="wp-content/uploads/2017/12/video.png"
-                                  class="image"
-                                  alt="" /></span
-                              ><span class="play"></span
-                            ></a>
+                
                             <div class="es-resp">
-                              <div
-                                class="visible-xl"
-                                style="height: 100px"
-                              ></div>
-                              <div
-                                class="hidden-xl hidden-sm hidden-md hidden-ms hidden-xs"
-                                style="height: 100px"
-                              ></div>
-                              <div
-                                class="hidden-xl hidden-lg hidden-sm hidden-ms hidden-xs"
-                                style="height: 100px"
-                              ></div>
-                              <div
-                                class="hidden-xl hidden-lg hidden-md hidden-ms hidden-xs"
-                                style="height: 100px"
-                              ></div>
-                              <div
-                                class="visible-ms"
-                                style="height: 100px"
-                              ></div>
-                              <div
-                                class="visible-xs"
-                                style="height: 100px"
-                              ></div>
+                              <div class="visible-xl" style="height: 100px"></div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </section>
+                  </div>
+                </section>
                   <div class="vc_row-full-width vc_clearfix"></div>
                   <!-- <section
                     data-vc-full-width="true"
@@ -4645,16 +4656,18 @@
               <div id="text-4" class="widget widget_text">
                 <div class="textwidget">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Vivamus tristique ligula
-                    quis orci malesuada tincidunt.
+                    Jello Ice is ideal for drinking, cooking, sports
+                    and even for children.
                   </p>
                 </div>
               </div>
               <div id="ltx_icons-2" class="widget widget_ltx_icons">
                 <ul class="social-big">
                   <li>
-                    <a target="_blank" href="#" class="fa fa-twitter"></a>
+                    
+                    <a target="_blank" href="#" >
+                      <img src="wp-content/uploads/2017/12/insta-icon.png" alt="" >
+                    </a>
                   </li>
                   <li>
                     <a target="_blank" href="#" class="fa fa-facebook"></a>
@@ -4859,6 +4872,49 @@
       var mc4wp_forms_config = [];
     </script>
 
+    <script>
+      // Function to show the confirmation modal
+      function showModal() {
+        document.getElementById('confirmationModal').style.display = 'block';
+      }
+
+      // Function to submit the form after confirmation
+      function submitForm() {
+    
+        //alert('Testing request')
+        // document.getElementById('waterRequestForm').submit();
+        // Collect form data
+        const fullName = document.getElementById('fullName').value;
+        const numberOfBags = document.getElementById('numberOfBags').value;
+        const deliveryDate = document.getElementById('deliveryDate').value;
+        const phoneNumber = document.getElementById('phoneNumber').value;
+        const email = document.getElementById('email').value;
+        alert(`Testing request ${ document.getElementById('fullName').value} ${numberOfBags} ${deliveryDate} ${phoneNumber} ${email} hello`)
+      
+        // Prepare the email data
+        let templateParams = {
+            subject : "New water request",
+            from_name: fullName,
+            // to_name: "Cobbiekay",
+            message: `New water request:\n\nFull Name: ${fullName}\nNumber of Bags: ${numberOfBags}\nDelivery Date: ${deliveryDate}\nPhone Number: ${phoneNumber}\nEmail: ${email}`
+        };
+      
+        console.log(templateParams);
+        // Send email using EmailJS
+        emailjs.send('service_b3yk1vs', 'template_o8e8q6k', templateParams)
+            .then(function(response) {
+                alert('Request submitted successfully!');
+                console.log('SUCCESS!', response.status, response.text);
+            }, function(error) {
+                alert(`Failed to send request. Please try again later.${error.message}`);
+                console.log('FAILED...', error);
+            });     
+      }
+      // Function to close the modal
+      function closeModal() {
+        document.getElementById('confirmationModal').style.display = 'none';
+      }
+    </script>
     <script
       type="text/javascript"
       defer
@@ -4866,3 +4922,30 @@
     ></script>
   </body>
 </html>
+
+<!-- Add some basic styles for the modal -->
+<style>
+  #confirmationModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  #confirmationModal button {
+    margin: 10px;
+    padding: 10px 20px;
+  }
+</style>
